@@ -1,0 +1,99 @@
+@font-face {
+    font-family: a;
+    src: url(./assets/Blue\ Style.ttf);
+}
+@font-face {
+    font-family: b;
+    src: url(./assets/Poppins-Bold.ttf);
+}
+body {
+    font-family:b;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(255, 192, 192);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./assets/Site\ BG.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    text-transform: capitalize;
+    font-size: 90px;
+    font-weight: 900;
+}
+.header {
+    color: white;
+    padding: 20px;
+}
+button{
+    margin: 20px;
+}
+#name{
+    margin: auto;
+    justify-content: center;
+    padding:5px 8px;
+    border-radius: 10px;
+    max-width: 250px;
+}
+#CODE {
+    transition: 0.5s;
+    font-family: b;
+    color: #ffd500;
+}
+.content{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 20px;
+}
+/* Style the "Get Code" button */
+#get-code-button {
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* On hover, change the button color */
+#get-code-button:hover {
+    transition: 0.3s;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.access-message{
+    max-width: 350px;
+}
+
+.green-text {
+    color: #00FF00; /* Green color */
+}
+.red-text {
+    color: #FF0000; /* Red colour  */
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: block;
+    background-color: #0e4166;
+    background-image: linear-gradient(to bottom, rgba(14, 65, 102, 0.86), #0e4166);
+}
+@media only screen and (max-width: 600px) {
+    h1{
+        font-size: 50px;
+    }
+}
