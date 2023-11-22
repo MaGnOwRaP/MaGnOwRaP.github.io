@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
 function checkAccess() {
     var allowedNames = {
         "as2022200": "SD5265",
-"as2020015": "HG5741",
+"as2022015": "HG5741",
 "as2022389": "KL7412",
 "as2022076": "YT3698",
 "as2022598": "RE3694",
